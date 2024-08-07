@@ -1,0 +1,41 @@
+body{background-image: url("car3.jpg");
+     box-sizing: border-box;
+     background-repeat: no-repeat;
+     background-size: cover;
+     max-height:none;
+     max-width: none;
+     
+}
+div{
+    contain: content;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size:medium;
+    font-weight: 899;
+    font-family: monospace;
+    
+    
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+
+
+}
+#me{
+    
+    color: whitesmoke;
+    font-size: x-large;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    color: greenyellow;
+}
+#comet{
+    margin-top: 23px;
+}
+
+
