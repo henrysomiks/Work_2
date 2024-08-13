@@ -1,41 +1,63 @@
-body{background-image: url("car3.jpg");
-     box-sizing: border-box;
-     background-repeat: no-repeat;
-     background-size: cover;
-     max-height:none;
-     max-width: none;
-     
-}
-div{
-    contain: content;
-    color: white;
-    text-align: center;
-    font-style: italic;
-    font-size:medium;
-    font-weight: 899;
-    font-family: monospace;
-    
-    
-}
-img{
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
 
+.logo{
+
+  height: 50px;
+  width: 100px;
+}
+h1{
+  text-align: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  height: 70vh;
+}
+.plans{
+  background-color: grey;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  flex: 3;
+  
+  
 
 }
-#me{
-    
-    color: whitesmoke;
-    font-size: x-large;
-    font-weight: normal;
-    font-family: 'Courier New', Courier, monospace;
+.title{
+  text-align: center;
+  font-size: large;
+  color: black;
 }
-h2{
-    color: greenyellow;
+.price{
+  font-weight: 900;
+  text-align: center;
+  margin-top: 20px;
 }
-#comet{
-    margin-top: 23px;
+.features{
+  margin-bottom: 20px;
+  list-style: none;
+  
 }
 
+.click{
+  background-color: blue;
+  padding: 8px;
+  border: 8px solid black;
+  margin-top: 5px;
+  text-align: center;
+  
 
+}
+footer{
+  text-align: center;
+  font-size: x-large;
+  font-weight: 900;
+  font-family: monospace;
+}
+@media (max-width: 480px){
+  .container{
+    flex-direction: column;
+    height: 100%;
+  }
+}
